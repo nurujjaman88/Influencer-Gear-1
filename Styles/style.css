@@ -11,111 +11,107 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  } */
-  
-  /* .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  } */
   
   .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-/*   
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+
+  body{
+    max-width: 1140px;
+    margin: 0 auto;
   }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  } */
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+/* Header section style start*/
+ .header_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 120px;
+  margin-top: 90px; */
+ }
+
+ .band{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3A3A3A;
+ }
+
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+
+ }
+
+ .navbar a{
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #3A3A3A;
+ }
+
+ /* Header section style End*/
+
+ /* Banner section style Start*/
+.banner-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 30px;
+  align-items: center;
+  /* max-width: 100%; */
+}
+
+.banner-title-sec{
+  font-size: 50px;
+  font-weight: bold;
+  color: #3A3A3A;
+}
+
+.banner-title{
+  width: 582px;
+  height: 270px;
+  margin-right: 30px;
+}
+
+.btn-primary{
+  background-color: #E02C6D;
+  color: white;
+  font-size: bold;
+  border-radius: 20px;
+  padding: 10px 24px;
+  border: none;
+}
+
+.banner-logo{
+  width: 473px;
+  height: 414px;
+  background-image: url('../images/Circle\ design.svg');
+  border: 1px solid blueviolet;
+  margin-left: 80px;
+}
+
+.banner-logo img{
+  margin-top: 20px;
+}
+
+.banner-description{
+  font-size: 16px;
+  font-weight: 500;
+  color: #3A3A3A;
+  padding-right: 20px;
+}
+ /* Banner section style End*/
+ /* Sponsor section style Start*/
+ .sponsor-section{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 40px;
+  width: 1110px;
+  height: 110px;
+  border: 1px solid whitesmoke;
+  align-items: center;
+  padding: 10px 30px;
+ }
+ /* Sponsor section style End*/
